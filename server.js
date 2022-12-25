@@ -22,7 +22,7 @@ import { Server } from "socket.io";
 
 const io = new Server(server, {
     cors: {
-        origin : 'https://quickall.cyclic.app',
+        origin : 'https://quickall.onrender.com',
     }
 });
 
