@@ -2,7 +2,7 @@ import { request } from 'express';
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url = "https://quickall.cyclic.app";
+const url = "https://quickall.onrender.com";
 
 let gfs, gridFsBucket;
 
